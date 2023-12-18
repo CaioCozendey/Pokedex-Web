@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #111111;
+}
+
+h1{
+    text-align: center;
+    color: #e90404;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.pokemons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    gap: 1.5rem;
+    display: flex;
+    width: 1080px;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+
+.addBtn{
+    margin: 8rem auto 2rem auto;
+    display: flex;
+    text-align: center;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    background-color: #c00d0d;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    box-shadow: #000000 0px 0px 8px;
+}
+
+.addBtn:hover{
+    background-color: #8b0000;
+    transition: .25s;
+}
